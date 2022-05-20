@@ -1,0 +1,94 @@
+@import url("./style.css");
+
+:root{
+    --background-color:#FFC107;
+    --text-color: #FFA000; 
+}
+
+/* Main */
+
+.receitasInternas{
+    display: flex;
+    margin-top: 117px;
+    margin-left: 100px;
+}
+
+h1 {
+    color: var(--text-color);
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+main img {
+    max-width: 580px;
+    margin-bottom: 25px;
+}
+
+main span {
+    color: #176902;
+    border: 1px solid;
+    padding: 7px 10px;
+    margin-right: 38px;
+    border-radius: 30px;
+}
+
+h2 {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 58px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Video */
+
+section h3 {
+    margin-bottom: 52px;
+}
+
+/* Article */
+
+article p {
+    max-width: 580px;
+    margin-bottom: 285px;
+}
+
+/* aside */
+aside{
+    margin-top:5%;
+    margin-left: 192px;
+}
+
+.cardRelacionadas {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 345px;
+    height: 411px;
+    margin-bottom: 50px;
+}
+
+.cardRelacionadas p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer span{
+    margin-left: 38px;
+    color: #fff;
+    align-self: center;
+}

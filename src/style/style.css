@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --background-color:#FFC107;
+    --text-color: #FFA000; 
+}
+
+/* Header + Nav */
+
+header {
+    position: relative;
+    background-color: var(--background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+nav {
+    background-color: var(--text-color);
+    height: 48px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 12px 58px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bannerTopo{
+    background-image: url("./");
+}
+
+footer {
+    background-color: var(--background-color);
+}
