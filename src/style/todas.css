@@ -1,0 +1,43 @@
+@import url("./style.css");
+*{
+    box-sizing: border-box;
+}
+
+article {
+    margin-top: 1.5rem;
+    margin-left: 14rem;
+}
+
+h1{
+    margin-bottom: 1rem;  
+    color: #FFA000;
+    font-weight: 700;
+}
+
+section {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.cardTodas {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    max-width: 250px;
+}
+
+.cardTodas img{
+    width: 250px;
+    height: 150px;
+}
+
+.cardTodas p {
+    margin: 0.5rem 0 0.5rem 3rem ;
+    max-width: 150px;
+    text-align: center;
+}
+
+.botao {
+    padding: 5px;
+    color: white;
+    background-color: #176902;
+}

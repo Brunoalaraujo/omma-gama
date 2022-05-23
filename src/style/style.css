@@ -27,7 +27,7 @@ header img{
 
 nav {
     background-color: var(--text-color);
-    height: 48px;
+    height: 38px;
 }
 
 nav ul {
@@ -49,6 +49,15 @@ nav ul li a {
     background-image: url("./");
 }
 
-footer {
+/* footer */
+footer{
     background-color: var(--background-color);
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer span{
+    margin-left: 38px;
+    color: #fff;
+    align-self: center;
 }
