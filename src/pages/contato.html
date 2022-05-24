@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="stylesheet" href="../style/contato.css" />
-    <title>Document</title>
+    <title>Omma-Contato</title>
   </head>
   <body>
     <header>
-      <img src="../img/logo.png" alt="Logo Omma" />
+      <a href="../../index.html">
+        <img src="../img/logo.png" alt="Logo Omma" />
+      </a>
     </header>
     <nav>
       <ul>
-        <li><a href="#">inicio</a></li>
-        <li><a href="./src/pages/todas.html">receitas</a></li>
-        <li><a href="">contato</a></li>
+        <li><a href="../../index.html">inicio</a></li>
+        <li><a href="./todas.html">receitas</a></li>
+        <li><a href="#">contato</a></li>
       </ul>
     </nav>
     <section class="bannterContatoTop">
-      <img src="../img/bannerContatoTopo.png" alt="" />
+      <img src="../img/bannerContatoTopo.png" alt="Foto família" />
       <p>manda um <br />alô :)</p>
     </section>
     <main>
       <section class="container">
-        <img src="../img/bannerContatoForm.png" alt="" />
+        <img src="../img/bannerContatoForm.png" alt="Foto celular" />
         <div class="formulario">
           <form action="">
             <h2>Contato</h2>
@@ -34,26 +42,36 @@
               type="text"
               id="nomeCompleto"
               name="nomeCompleto"
-              value="   Nome"
+              onfocus="this.value=''"
+              placeholder="  nome"
             />
             <label for="email"></label>
-            <input type="text" id="email" name="email" value="    email" />
-            <label for="mensagem"></label>
             <input
+              type="text"
+              id="email"
+              name="email"
+              onfocus="this.value=''"
+              placeholder="  email"
+            />
+            <label for="mensagem"></label>
+            <textarea
               type="text"
               id="mensagem"
               name="mensagem"
-              value="    mensagem"
-            />
-            <input type="submit" value="enviar" />
+              onfocus="this.value=''"
+              placeholder="  mensagem"
+            ></textarea>
+            <input type="submit" id="enviar" value="enviar" />
           </form>
         </div>
       </section>
     </main>
 
     <footer>
-      <a href="#"><img src="../img/logo.png" alt="Logo Omma" /></a>
-      <span>© 2022 omma - Todos os direitos são de vocês</span>
+      <a href="../../index.html"
+        ><img src="../img/logo.png" alt="Logo Omma"
+      /></a>
+      <span>&#169; 2022 omma - Todos os direitos são de vocês</span>
     </footer>
   </body>
 </html>

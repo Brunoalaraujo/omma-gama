@@ -1,46 +1,86 @@
 @import url("./style.css");
 
-
 /* banner Topo */
-.bannterContatoTop{
-    display: flex;
-    height: 405px;
+.bannterContatoTop {
+  display: flex;
+  height: 405px;
 }
 
-.bannterContatoTop img{
-    width: 100%; 
-    height: 475px; 
+.bannterContatoTop img {
+  width: 100vw;
+  height: 475px;
 }
 
-.bannterContatoTop p{
-    position: absolute;
-    color: #fff;
-    font-weight: 700;
-    font-size: 3rem;
-    padding-top: 10%;
-    padding-left: 15%;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
+.bannterContatoTop p {
+  position: absolute;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-top: 10%;
+  padding-left: 15%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.36);
 }
 
 /* formulário */
+main {
+  overflow: hidden;
+}
 
-.container{
-    margin-top: 10rem;
-    width: 100%;
-    height: 500px;
+.container {
+  display: inline-flex;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  width: 100vw;
+  height: 600px;
 }
 
 .container img {
-    float: left;
-    margin-left: 10rem;
-    height: 450px;
-    border-radius: 20px;
+  max-width: 20%;
+  height: 500px;
+  border-radius: 20px;
 }
 
-.formulario  form{
-    display: block;
-    float: right;
-    margin-right: 10rem;
-    height: 450px;
-    border: 1px solid #FFA000;
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 600px;
+  height: 500px;
+  border: 1px solid #ffa000;
+  border-radius: 20px;
+}
+
+.formulario h2 {
+  margin: 2rem 0 2rem 1rem;
+  color: #ffc107;
+  font-weight: 700;
+}
+
+#nomeCompleto,
+#email {
+  margin: 1rem;
+  line-height: 1.5rem;
+  border: 1px solid #ffa000;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+#mensagem {
+  margin: 1rem;
+  height: 200px;
+  border: 1px solid #ffa000;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 10px 0 0 10px;
+}
+
+#enviar {
+    margin-left: 1rem;
+    background-color: #ffc107;
+    color: #fff;
+    width: 70px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
 }

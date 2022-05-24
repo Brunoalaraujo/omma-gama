@@ -38,6 +38,11 @@ section {
 
 .botao {
     padding: 5px;
-    color: white;
     background-color: #176902;
+    color: #fff;
+}
+
+.botao a {
+    color: #fff;
+    text-decoration: none;
 }
