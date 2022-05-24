@@ -4,57 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="./src/style/style.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style/style.css" />
     <title>Omma</title>
   </head>
   <body>
     <header>
-      <img src="./src/img/logo.png" alt="" style="background-color: black;" />
+      <img src="./src/img/logo.png" alt="Logo Omma" />
     </header>
     <nav>
       <ul>
-        <li>
-            <a href="">inicio</a>
-        </li>
-        <li><a href="">receitas</a></li>
+        <li><a href="#">inicio</a></li>
+        <li><a href="./src/pages/todas.html">receitas</a></li>
         <li><a href="">contato</a></li>
       </ul>
     </nav>
     <section class="bannerTopo">
-      <p>receitas com afeto</p>
+      <img
+        src="./src/img/bannerHomeTopo.png"
+        alt="Foto família preparando prato"
+      />
+      <p>receitas<br />com afeto</p>
     </section>
-    <main>
+    <main class="mainIndex">
       <h2>receitas da semana</h2>
-
-      <div class="CardReceitaSemana">
-        <img src="./src/img/risoto.png" alt="" />
+      <div class="cardReceitaSemana">
+        <img src="./src/img/risoto.png" alt="Foto Risoto de abobora" />
         <p>risoto de abobora</p>
-        <button>conferir</button>
+        <p class="conferir"><a href="./src/pages/Interna.html">conferir</a></p>
       </div>
-      <div class="CardReceitaSemana">
-        <img src="./src/img/bolo-banana.png" alt="" />
+      <div class="cardReceitaSemana">
+        <img src="./src/img/bolo-banana.png" alt="Foto Bolo de banana" />
         <p>bolo de banana</p>
-        <button>conferir</button>
+        <p class="conferir">conferir</p>
       </div>
-      <div class="CardReceitaSemana">
-        <img src="./src/img/tabule.png" alt="" />
-        <p>risoto de abobora</p>
-        <button>conferir</button>
+      <div class="cardReceitaSemana">
+        <img src="./src/img/tabule.png" alt="Foto tabule tradicional" />
+        <p>tabule tradicional</p>
+        <p class="conferir">conferir</p>
       </div>
     </main>
-    <section>
-      <h2>Comer é viver</h2>
-      <p>
-        Receitas preparadas com muito carinho, para que você possa sentir o
-        prazer de preprarar uma deliciosa refeição para sua familia.<br> 
-        Todas as receitas terá a lista de ingrediente indicando tudo que você precisa,
-        além disso, terá as intruções de preparo.
-      </p>
-    </section> 
+    <section class="bannerBottom">
+      <img src="./src/img/bannerHomeBottom.png" alt="" />
+      <div class="infor">
+        <h2>Comer é viver</h2>
+        <p>
+          Receitas preparadas com muito carinho, para que você possa sentir o
+          prazer de preprarar uma deliciosa refeição para sua familia.
+        </p>
+        <p>
+          Todas as receitas terá a lista de ingrediente indicando tudo que você
+          precisa, além disso, terá as intruções de preparo.
+        </p>
+      </div>
+    </section>
     <footer>
-        <a href=""><img src="./src/img/logo.png" alt=""></a>
-        <span>© 2022 omma - Todos os direitos são de vocês</span>
-        
+      <a href="#"><img src="./src/img/logo.png" alt="Logo Omma" /></a>
+      <span>© 2022 omma - Todos os direitos são de vocês</span>
     </footer>
   </body>
 </html>
